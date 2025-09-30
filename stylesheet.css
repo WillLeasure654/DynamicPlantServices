@@ -1,0 +1,115 @@
+/* ===== Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D4D4D; /* grey text */
+  background-color: #FFFFFF; /* white background */
+  line-height: 1.6;
+}
+
+/* ===== Containers ===== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* ===== Header & Navigation ===== */
+header {
+  background: #082B74; /* navy */
+  color: #FFFFFF;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3280B3; /* light blue hover */
+}
+
+/* ===== Hero Section ===== */
+#hero {
+  background: #B02027; /* red */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #3280B3; /* light blue button */
+  color: #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #082B74; /* navy hover */
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 3rem 0;
+  border-bottom: 1px solid #D3D3D3; /* lighter grey divider */
+}
+
+section h2 {
+  color: #082B74; /* navy headings */
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+/* ===== Contact Section ===== */
+#contact a {
+  color: #B02027; /* red links for emphasis */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #4D4D4D; /* grey */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
